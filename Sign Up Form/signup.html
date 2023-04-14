@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@900&family=Poppins:wght@300&display=swap"
+        rel="stylesheet">
+    <script src="signup.js"></script>
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+    <link rel="stylesheet" href="signup.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign-up</title>
+</head>
+
+<body>
+    <div class="navbar">
+        <div class="navbar-left">
+            <div><a href="/homework3/index.html" class="fix-text">Go back</a></div>
+        </div>
+    </div>
+    <div class="containter">
+        <div class="username">
+            <label for="username" class="font">Username</label>
+            <label class="user-input-field">
+                <i class="uil uil-user"></i>
+            </label>
+            <input type="text" class="input" id="usernameInput" name="username" placeholder="Enter your username">
+            <div id="usernameComment"></div>
+        </div>
+        <div class="password">
+            <label for="password" class="font">Password</label><br>
+            <label class="input-password-field">
+                <i class="uil uil-lock"></i>
+            </label>
+            <input type="password" id="passwordInput" name="password" placeholder="Enter your password" class="input">
+            <div id="passwordComment"></div>
+        </div>
+        <div class="gender-pick">
+                <label class="font">Gender</label><br>
+                <input type="radio" name="gender" value="male" id="malePick"> 
+                <label class="birthdateTxt">Male</label>
+                <input type="radio" name="gender" value="female" id="malePick">
+                <label class="birthdateTxt">Female</label>
+                <div id="genderComment"></div>
+        </div><br>
+        <div class="birthdate-">
+            <label for="birthdate" class="birthday-txt">Birth Date</label>
+            <input type="date" id="birthdate" class="birthdate">
+            <div id="birthdateComment"></div>
+        </div>
+        <div class="notes">
+            <div class="font">Notes:</div>
+            <textarea class="notepad" id="notePadArea"></textarea>
+        </div>
+        <div class="signup">
+            <button class="signup-button" onclick="chkData()">Sign up</button>
+        </div>
+
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="calculator.js"></script>
+    <link rel="stylesheet" type="text/css" href="calculator.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>iPhone Caculator</title>
+</head>
+<body>
+    <div class="navbar">
+        <div class="navbar-left">
+            <div><a href="/homework3/index.html" class="fix-text">Go back</a></div>
+        </div>
+    </div>
+    <div class="title">iPhone Caculator</div>
+    <div class="conatiner">
+        <div class="result-bar">
+            <input type="" name="result" value="0" id="result">
+        </div>
+        <div class="keys-buttons">
+            <div class="row-1">
+                <button class="buttons gray" onclick="dele()">AC</button>
+                <button class="buttons gray" onclick="delet()">Del</button>
+                <button class="buttons gray" onclick="add_digit('-')">+/-</button>
+                <button class="buttons orange" onclick="add_digit('/')">/</button>
+            </div>
+            <div class="row-2">
+                <button class="buttons black" onclick="add_digit('7')">7</button>
+                <button class="buttons black" onclick="add_digit('8')">8</button>
+                <button class="buttons black" onclick="add_digit('9')">9</button>
+                <button class="buttons orange" onclick="add_digit('*')">X</button>
+            </div>
+            <div class="row-3">
+                <button class="buttons black" onclick="add_digit('4')">4</button>
+                <button class="buttons black" onclick="add_digit('5')">5</button>
+                <button class="buttons black" onclick="add_digit('6')">6</button>
+                <button class="buttons orange" onclick="add_digit('-')">-</button>
+            </div>
+            <div class="row-4">
+                <button class="buttons black"onclick="add_digit('1')">1</button>
+                <button class="buttons black" onclick="add_digit('2')">2</button>
+                <button class="buttons black" onclick="add_digit('3')">3</button>
+                <button class="buttons orange" onclick="add_digit('+')">+</button>
+            </div>
+            <div class="row-5">
+                <button class="buttons black zero" style="text-align: left; width: 45%; border-radius: 41%;" onclick="add_digit('0')">0</button>
+                <button class="buttons black" onclick="add_digit('.')">.</button>
+                <button class="buttons orange" onclick="math_error() & equal()">=</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

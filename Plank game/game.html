@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@900&family=Poppins:wght@300&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="game.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plank Game</title>
+</head>
+
+<body>
+    <div class="navbar">
+        <div class="navbar-left">
+            <div><a href="/homework3/index.html" class="fix-text">Go back</a></div>
+        </div>
+    </div>
+    <div class="phoneMsg">
+        <img src="sad-removebg-preview.png">
+        <div class="phoneMsg2">
+            Unfortunately the game is only supported on computers/laptops.
+        </div>
+    </div>
+    <div id="containter">
+        <div id="startMsg">Arrow left:Moving left Arrow right:moving right Get to 10 scores and win!</div>
+        <button id="startButton" onclick="gameStart()">start</button>
+        <div id="ball"></div>
+        <div id="plankIndex"></div>
+        <div id="gameOverMessage"></div>
+        <div id="WinnerMsg"></div>
+    </div>
+
+    <script src="game.js"></script>
+</body>
+
+</html>

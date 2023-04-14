@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@900&family=Poppins:wght@300&family=Rubik+Pixels&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="notepad.css">
+    <script src="notepad.js"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notepad</title>
+</head>
+<body>
+    <div class="navbar">
+        <div class="navbar-left">
+            <div><a href="/homework3/index.html" class="fix-text">Go back</a></div>
+        </div>
+    </div>
+    <div class="title">Notepad:</div><br><br>
+    <div class="text">Forbiden words:@, =, and any other word more than 4 chars</div>
+    <textarea id="notepad" rows="10" cols="50" oninput="checkInput(event)"></textarea>
+</body>
+</html>

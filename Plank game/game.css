@@ -1,0 +1,169 @@
+body {
+    overflow: hidden;
+}
+
+.navbar {
+    background-color: black;
+    height: 9vh;
+    width: 110%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    box-shadow: -4px 10px 5px 0px rgba(78, 78, 78, 0.75);
+    -webkit-box-shadow: -4px 10px 5px 0px rgba(78, 78, 78, 0.75);
+    -moz-box-shadow: -4px 10px 5px 0px rgba(78, 78, 78, 0.75);
+}
+
+.navbar-left {
+    color: white;
+    font-size: 30px;
+    font-weight: 900;
+    position: absolute;
+    bottom: 0;
+    left: 0.2%;
+    font-family: 'Merriweather', serif;
+}
+
+.fix-text {
+    color: white;
+    text-decoration: none;
+}
+
+
+#containter {
+    border: 2px solid  black;
+    background-size: cover;
+    position: relative;
+    top: 100px;
+    left: 200px;
+    background-color:  black;
+    height: 600px;
+    width: 800px;
+}
+
+#startMsg{
+    color: white;
+    font-family: 'Merriweather', serif;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Rubik Pixels', cursive;
+    font-size: 25px;
+    font-weight: 500;
+    position: absolute;
+    padding: 20px;
+    top: 80px;
+    left: 220px;
+    width: 300px;
+}
+
+#startButton {
+    font-size: 20px;
+    font-weight: 600;
+    padding: 15px 30px;
+    position: absolute;
+    margin-top: 220px;
+    margin-left: 300px;
+    border-radius: 40px;
+    background-color: white;
+    border: none;
+}
+
+#ball {
+    position: absolute;
+    top: 30px;
+    left: 330px;
+    border-radius: 50%;
+    height: 25px;
+    width: 25px;
+    background-color: white;
+}
+
+
+#displayScore{
+    color: white;
+    font-family: 'Merriweather', serif;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Rubik Pixels', cursive;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+
+#plankIndex {
+    position: absolute;
+    top: 450px;
+    left: 310px;
+    border-radius: 20px;
+    background-color: white;
+    height: 20px;
+    width: 100px;
+}
+
+#gameOverMessage {
+    font-family: 'Merriweather', serif;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Rubik Pixels', cursive;
+    font-size: 40px;
+    font-weight: 500;
+
+    position: absolute;
+    top: 120px;
+    left: 260px;
+}
+
+#rstBtn {
+    position: absolute;
+    top: 70px;
+    right: 50px;
+    font-size: 20px;
+    font-weight: 600;
+    height: 60px;
+    width: 120px;
+    border-radius: 40px;
+    background-color: white;
+    border: none;
+}
+
+
+#winnerBtn{
+    position: absolute;
+    top: 70px;
+    left: 150px;
+    font-size: 20px;
+    font-weight: 600;
+    height: 60px;
+    width: 120px;
+    border-radius: 40px;
+    background-color: white;
+    border: none;
+}
+
+
+#WinnerMsg {
+    font-family: 'Merriweather', serif;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Rubik Pixels', cursive;
+    font-size: 30px;
+    font-weight: 500;
+    position: absolute;
+    top: 130px;
+    left: 180px;
+}
+
+@media only screen and (min-device-width: 1200px) 
+
+and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 1) {
+    #containter {
+        border: 2px solid  black;
+        background-size: cover;
+        position: relative;
+        top: 50px;
+        left: 200px;
+        background-color:  black;
+        height: 600px;
+        width: 800px;
+    }
+}
